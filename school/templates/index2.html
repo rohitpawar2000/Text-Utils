@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is index page</title>
+</head>
+<body>
+<h1>This is my first template</h1>
+<p>{{name}} {{surname}}</p>
+
+<form  action="/analyze" method="get">
+    <textarea rows="15" cols="100" name="text"></textarea><br><br>
+    <input type="checkbox" name="removepunc">RemovePunctuations <br>
+    <input type="checkbox" name="charcount">Count Characters <br>
+    <input type="checkbox" name="newline">Remove newLine <br>
+    <input type="checkbox" name="uppercase">Uppercase <br>
+    <input type="checkbox" name="lowercase">Lowercase <br><br>
+    <button type="submit" style="width:100px; height:50px" >analyze</button>
+</form>
+
+</body>
+</html>
